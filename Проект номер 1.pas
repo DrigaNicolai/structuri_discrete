@@ -42,13 +42,22 @@ begin
     writeln(#186, a:6, #179:2,b:6, #179:2, (a or b):6, #186:2);
   Stroka(3, #200, #205, #207, #188);
   
-  writeln('XOR');
+  writeln('Raznosti');
   Stroka(3, #201, #205, #209, #187);
-  writeln(#186, 'A':4, #179:4, 'B':4, #179:4,'A xor B', #186);
+  writeln(#186, 'A':4, #179:4, 'B':4, #179:4,' A / B ', #186);
+  Stroka(3, #199, #196, #197, #182);
+  for a:=false to true do
+  for b:=false to true do
+    writeln(#186, a:6, #179:2,b:6, #179:2, (a and not(b)):6, #186:2);
+  Stroka(3, #200, #205, #207, #188);
+  
+  writeln('Simetricescaia raznosti');
+  Stroka(3, #201, #205, #209, #187);
+  writeln(#186, 'A':4, #179:4, 'B':4, #179:4,' A ^ B ', #186);
   Stroka(3, #199, #196, #197, #182);
   for a:=false to true do
   for b:=false to true do
     writeln(#186, a:6, #179:2,b:6, #179:2, (a xor b):6, #186:2);
   Stroka(3, #200, #205, #207, #188);
-readkey;
+readln;
 end.
