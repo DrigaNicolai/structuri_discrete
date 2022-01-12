@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1638212933 source:c:\users\user\desktop\Учеба\Университет\structuri discrete\Индивидуальная работа\project\pr01dn\main.cpp
+	<stdio.h>
+	<conio.h>
+	<mem.h>
+	<cstdlib>
+
